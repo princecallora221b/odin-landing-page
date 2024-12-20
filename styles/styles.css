@@ -14,10 +14,26 @@ body{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 16px;
     padding: 16px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo h1{
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.header .logo-img{
+    width: 48px;
+    height:48px;
 }
 
 ul{
@@ -88,9 +104,9 @@ a{
 .two .content .content-desc{
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
     text-align: center;
     color:#1F2937;
+    padding: 8px;
 }
 
 .info h3{
